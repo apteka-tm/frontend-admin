@@ -1,10 +1,15 @@
 import React from "react";
-import Counter from "./components/Counter";
+import {Route, Routes} from "react-router";
+import SignIn from "./components/SignIn/SignIn";
+import SignUp from "./components/SignUp/SignUp";
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <Counter />
+      <Routes>
+          <Route path="/" element={<SignIn/>}/>
+          <Route path="/signup" element={<SignUp/>}/>
+      </Routes>
     </div>
   );
 }
