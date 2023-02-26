@@ -1,0 +1,27 @@
+.parent {
+    @apply m-8 mt-0 w-3/12
+}
+
+.header {
+    @apply text-xl font-bold text-center text-white my-6
+}
+
+div {
+    @apply shadow-xl rounded-md overflow-hidden text-center
+}
+
+input {
+    @apply block w-full bg-white bg-opacity-10 border-r-2
+    border-transparent focus:border-slate-400 py-3 px-4
+    placeholder:text-slate-300 outline-none text-slate-50
+    transition-colors mb-4
+}
+
+a {
+    @apply text-slate-50 hover:text-slate-400 transition-colors
+}
+
+.button {
+    @apply bg-orange-400 text-white block mt-5 py-2 w-full
+    transition-colors hover:bg-orange-500 text-lg
+}

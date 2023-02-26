@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import s from "../SignIn/signin.module.css";
+import s from "./signup.module.css";
 import {Link} from "react-router-dom";
 
 function SignUp(): JSX.Element {
