@@ -5,7 +5,3 @@
 body {
     @apply bg-slate-700
 }
-
-.App {
-    @apply flex flex-wrap justify-center content-center h-screen
-}

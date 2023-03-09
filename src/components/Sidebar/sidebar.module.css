@@ -1,0 +1,15 @@
+.dashboard {
+    @apply flex justify-end py-3
+}
+
+.header {
+    @apply p-3 flex justify-end
+}
+
+h1 {
+    @apply text-xl font-bold
+}
+
+nav {
+    @apply mt-4 flex flex-col gap-4 relative
+}

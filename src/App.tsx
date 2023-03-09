@@ -1,15 +1,10 @@
 import React from "react";
-import {Route, Routes} from "react-router";
-import SignIn from "./components/SignIn/SignIn";
-import SignUp from "./components/SignUp/SignUp";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App(): JSX.Element {
   return (
     <div className="App">
-      <Routes>
-          <Route path="/" element={<SignIn/>}/>
-          <Route path="/signup" element={<SignUp/>}/>
-      </Routes>
+        <Sidebar/>
     </div>
   );
 }
